@@ -5,6 +5,9 @@ body{
 h1{
     font-size: 50px;
 }
+h2{
+    font-size: 40px;
+}
 .oreng-color{
     color: orange;
 }
@@ -37,4 +40,32 @@ h1{
     background-repeat: no-repeat;
     background-position: right;
     padding-right: 150px;
+}
+.experience-area{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.experience-item{
+    width: 40%;
+    margin-left: 4%;
+    margin-right: 4%;
+    padding-left: 20px;
+    border-radius: 2%;
+    box-shadow: 10px 10px 80px rgb(75, 74, 74);
+}
+
+    
+#web-dev-experince{
+    border-left: 7px solid;
+    border-image: linear-gradient(rgb(23, 23, 233), rgb(8, 180, 180));
+    border-image-slice: 1;
+}
+#full-stack-dev{
+    border-left: 7px solid;
+    border-image: linear-gradient(rgb(173, 7, 7), tomato);
+    border-image-slice: 1; 
+}
+footer p{
+    text-align: center;
 }
